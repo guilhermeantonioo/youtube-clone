@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.logo ion-icon{
+    color: red;
+    height: 40px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+nav ion-icon{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    padding: 12px;
+    gap: 6px;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.buttons button{
+    border: 0;
+    padding: 6px 12px;
+    font-size: 10px;
+}
+
+.buttons button:hover, .buttons button.active{
+    background-color: black;
+    color: #fff;
+    border-radius: 3px;
+}
+
+main{
+    padding: 0 12px;
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info-canal{
+    display: flex;
+}
+
+.title-canal-info{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+}
+
+.title-canal-info h6{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .7;
+}
+
+.title-canal-info p{
+    font-size: 12px;
+    color: gray;
+}
+
+footer{
+    position: fixed;
+    bottom: 15px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+}
+
+footer img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer div ion-icon{
+    font-size: 20px;
+}
+.more{
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 20%;
+}
+footer div span{
+    font-size: 9px;
+}
+footer div{
+    display: grid;
+    justify-items: center;
+}
