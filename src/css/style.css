@@ -103,7 +103,7 @@ img{
 
 footer{
     position: fixed;
-    bottom: 15px;
+    bottom: 0;
     height: 50px;
     background-color: #fff;
     display: flex;
